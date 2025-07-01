@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export const metadata = {
   title:'Characters'
 }
@@ -39,7 +40,7 @@ export default function CharactersPage() {
       <div className="characters-grid">
         {characters.map((char) => (
           <div key={char.name} className="character-card">
-            <img src={char.image} alt={char.name} />
+            <Image src={char.image} alt={char.name} width={250} height={250} className="character-image" />
             <h2>{char.name}</h2>
             <p>{char.description}</p>
           </div>

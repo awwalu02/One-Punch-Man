@@ -37,9 +37,9 @@
 .character-strip {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1.5rem;
   flex-wrap: wrap;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem 0;
 }
 
 .character-img {
@@ -78,7 +78,7 @@
 
 
 .character-img {
-  width: 120px;
+  width: 100%;
   height: auto;
   border-radius: 15px;
   border: 2px solid #00aaff;
@@ -86,6 +86,11 @@
   padding: 8px;
   flex-shrink: 0;
   transition: transform 0.3s;
+  object-fit: contain;
+}
+.character-img[alt="garou"] {
+  height: 350px;
+  width: 200px;
 }
 
 @media (max-width: 768px) {
@@ -124,4 +129,10 @@
     max-width: 250px;
     margin: 0 auto;
   }
+}
+.character-image-wrapper {
+  background: transparent;
+  padding: 0.5rem;
+  border-radius: 12px;
+  overflow: hidden;
 }
