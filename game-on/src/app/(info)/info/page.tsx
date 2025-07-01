@@ -29,7 +29,7 @@ export default function InfoPage() {
         viewport={{ once: true }}
       >
         <li><strong>🎯 Objective:</strong> Choose a character and climb the ranks to become the strongest hero or villain.</li>
-        <li><strong>🎮 Game Modes:</strong> Story Mode, Free Battle, Tournament, Hero Hunt (Garou's path).</li>
+        <li><strong>🎮 Game Modes:</strong> Story Mode, Free Battle, Tournament, Hero Hunt (Garou&apos;s path).</li>
         <li><strong>🗺 Levels:</strong> From City Z alleyways to alien motherships — 10 unique stages.</li>
         <li><strong>💥 Power System:</strong> Level up with every fight — unlock special attacks and transformation stages.</li>
         <li><strong>⚙️ Difficulty:</strong> Easy, Normal, Hero, Monster, and God Tier (for real bosses only 😈).</li>
