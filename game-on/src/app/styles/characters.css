@@ -1,5 +1,3 @@
-/* styles/characters.css */
-
 .characters-page {
   padding: 2rem;
   text-align: center;
@@ -57,7 +55,6 @@
   color: #ccc;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 480px) {
   .characters-page h1 {
     font-size: 2rem;
