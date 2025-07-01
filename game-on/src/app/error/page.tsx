@@ -1,7 +1,7 @@
 'use client';
 import {useEffect} from 'react';
 
-export default function error(){
+export default function ErrorPage(){
     const gerer = (count: number) => {
         const random = Math.floor(Math.random()*count);
         if (random == 1) {
