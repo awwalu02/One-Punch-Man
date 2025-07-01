@@ -36,7 +36,7 @@ export default function AboutPage() {
         transition={{ delay: 0.4, duration: 0.5 }}
         viewport={{ once: true }}
       >
-        Choose from a roster of heroes and villains. Train, fight, and rise through the ranks to become the strongest. Whether you're a fan of Saitama’s chill vibe or Garou’s raw intensity, this game has something for every fighter.
+        Choose from a roster of heroes and villains. Train, fight, and rise through the ranks to become the strongest. Whether you're a fan of Saitama&apos;s chill vibe or Garou&apos;s raw intensity, this game has something for every fighter.
       </motion.p>
 
       <motion.p

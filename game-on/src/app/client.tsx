@@ -7,7 +7,6 @@ import Link from 'next/link'
 export default function Client() {
   return (
     <div className="home-container">
-      <p className="bg-red-300">Testing</p>
       <motion.h1
         className="home-title"
         initial={{ opacity: 0, y: -30 }}

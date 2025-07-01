@@ -1,4 +1,3 @@
-
 import './styles/globals.css';
 import './styles/layout.css';
 import Navbar from './components/Navbar';
